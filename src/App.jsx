@@ -6,11 +6,11 @@ const App = () => {
   const [value, setValue] = useState(0)
 
   const addClick = () => {
-       setValue(value+1)
+       setValue((prev) => prev+1)
   }
 
   const reduceClick = () => [
-     setValue(value-1)
+     setValue((prev) => prev-1)
   ]
 
   return (

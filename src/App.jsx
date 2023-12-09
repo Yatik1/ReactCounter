@@ -15,7 +15,7 @@ const App = () => {
 
   return (
    <div className='App'>
-        <h1>Counter App</h1>
+        <h1>Counter Ap</h1>
         <h3>Counter value : {value} 🔥🔥 </h3>
 
         <div className="buttons">
